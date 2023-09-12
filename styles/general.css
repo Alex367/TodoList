@@ -1,0 +1,11 @@
+/* @tailwind components;
+@tailwind utilities; */
+@layer components {
+    #__next {
+        height: 100%;
+        position: relative;
+    }
+    /* html,
+    body {
+    } */
+}

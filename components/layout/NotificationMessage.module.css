@@ -1,0 +1,23 @@
+.success {
+  background-color: #69d1c5;
+}
+
+.failed {
+  background-color: #DE3163;
+}
+
+.notification_ul {
+  width: 30rem;
+  height: 5rem;
+  margin: 0; 
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.4rem;
+  position: absolute;
+  left: 5%;
+  bottom: 15%;
+  border-radius: 8px;
+  line-height: 50px;
+}

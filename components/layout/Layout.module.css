@@ -1,0 +1,8 @@
+.main_container {
+  height: 100%;
+}
+
+.main_container header {
+  height: 10%;
+  margin-bottom: 4.8rem;
+}

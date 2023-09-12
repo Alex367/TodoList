@@ -1,0 +1,55 @@
+.todo_items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #dbdbdb;
+  gap: 1.2rem;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  color: #525252;
+}
+
+.todo_items:first-child {
+  border: none;
+}
+
+.todo_items_task {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  transition: transform .2s;
+  padding: 3.2rem;
+}
+.todo_items_task:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+.title_task {
+  font-weight: 700;
+  color: #000;
+}
+
+.date_author_task {
+  display: flex;
+  margin: 0;
+  gap: 2.4rem;
+  padding: 0;
+}
+
+.date_author_task li {
+  display: flex;
+  gap: 1.2rem;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.date_author_task li span {
+  margin-left: 0.4rem;
+}
+
+.expiredTask {
+  color: #DE3163;
+}

@@ -1,0 +1,16 @@
+.footer{
+  position: absolute;
+  bottom: 3%;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  border-top: 1px solid #dbdbdb;
+  padding-top: 1.6rem;
+}
+
+.current_date{
+  font-weight: 700;
+  font-size: 1.2rem;
+}
