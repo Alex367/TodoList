@@ -18,7 +18,7 @@ pipeline {
                     npm install newman
                     npm run dev &
                     sleep 5
-                    newman run postman_tests/todoReact.postman_collection.json -e postman_tests/todo_list_environment.postman_environment.json
+                    node_modules/.bin/newman run postman_tests/todoReact.postman_collection.json -e postman_tests/todo_list_environment.postman_environment.json
                 '''
             }
         }
