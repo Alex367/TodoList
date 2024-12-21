@@ -2,7 +2,11 @@ pipeline {
     agent any
 
     environment {
-        DB_TITLE_text = credentials('DB_TITLE')
+        DB_PATH = credentials('DB_PATH')
+        DB_TITLE = credentials('DB_TITLE')
+        DB_DATA_COLLECTION = credentials('DB_DATA_COLLECTION')
+        DB_DATA_USER = credentials('DB_DATA_USER')
+        NEXTAUTH_SECRET = credentials('NEXTAUTH_SECRET')
     }
 
     stages {
