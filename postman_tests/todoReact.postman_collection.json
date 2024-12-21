@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "https://localhost:3000/api/task",
+			"name": "GetTasksList",
 			"event": [
 				{
 					"listen": "test",
