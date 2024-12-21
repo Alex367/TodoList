@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    environment {
+        DB_TITLE_text = credentials('DB_TITLE')
+    }
+
     stages {
         stage('Postman tests running') {
             agent{
@@ -11,6 +15,8 @@ pipeline {
             }
             steps {
                 sh '''
+                    echo $DB_TITLE_text
+                    env | sort
                     echo "Hello World"
                     node --version
                     npm --version
